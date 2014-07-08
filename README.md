@@ -6,7 +6,7 @@ This example shows how you can/ or cannot bundle up react components and load on
 
     jspm install react=github:reactjs/react-bower -o "{main: 'react', format: 'global'}" -f
     jspm install react-nested-router=github:toranb/toranb-react-nested-router
-    jspm install prefinal=github:toranb/toranb-react-jspm-view@0.1.7
+    jspm install prefinal=github:toranb/toranb-react-jspm-view@0.1.8
     jspm install rsvp=github:tildeio/rsvp.js@3.0.7 -o "{main: 'lib/rsvp.js'}"
 
     cd jspm_packages/github/tildeio/rsvp.js@3.0.7
