@@ -3,6 +3,39 @@ System.config({
     "*": "*.js",
     "npm:*": "jspm_packages/npm/*.js",
     "github:*": "jspm_packages/github/*.js"
+  },
+  "bundles": {
+    "github:toranb/toranb-react-jspm-view@0.2.2/bundle": [
+      "github:tildeio/rsvp.js@3.0.7/rsvp/events",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/utils",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/-internal",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/promise/resolve",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/enumerator",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/promise/race",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/promise/reject",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/node",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/all",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/all-settled",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/race",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/promise-hash",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/hash-settled",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/rethrow",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/defer",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/map",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/resolve",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/reject",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/filter",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/asap",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/config",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/instrument",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/promise/cast",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/promise/all",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/hash",
+      "github:tildeio/rsvp.js@3.0.7/rsvp/promise",
+      "github:tildeio/rsvp.js@3.0.7/rsvp.js",
+      "github:tildeio/rsvp.js@3.0.7",
+      "github:toranb/toranb-react-jspm-view@0.2.2/final"
+    ]
   }
 });
 

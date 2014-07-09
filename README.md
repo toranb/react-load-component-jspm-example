@@ -5,11 +5,6 @@ This example shows how you can/ or cannot bundle up react components and load on
     npm install jspm
 
     jspm install
-
-    cd jspm_packages/github/tildeio/rsvp.js@3.0.7
-    mv rsvp.js rsvp.js.js
-    cd -
-
     jspm bundle app/router
 
     python -m SimpleHTTPServer 3000
