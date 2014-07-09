@@ -4,9 +4,7 @@ This example shows how you can/ or cannot bundle up react components and load on
 
     npm install jspm
 
-    jspm install react=github:reactjs/react-bower -o "{main: 'react', format: 'global'}" -f
-    jspm install react-nested-router=github:toranb/toranb-react-nested-router
-    jspm install prefinal=github:toranb/toranb-react-jspm-view@0.2.1
+    jspm install
 
     cd jspm_packages/github/tildeio/rsvp.js@3.0.7
     mv rsvp.js rsvp.js.js
@@ -17,3 +15,9 @@ This example shows how you can/ or cannot bundle up react components and load on
     python -m SimpleHTTPServer 3000
 
     visit http://localhost:3000 to see the running app
+
+**What I did to setup this web app**
+
+    jspm install react=github:reactjs/react-bower -o "{main: 'react', format: 'global'}" -f
+    jspm install react-nested-router=github:toranb/toranb-react-nested-router
+    jspm install prefinal=github:toranb/toranb-react-jspm-view@0.2.2
