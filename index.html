@@ -27,6 +27,9 @@
     <script>
       System.import('app/router').then(function(router) {
         router['default'].renderComponent(document.body);
+      }).catch(function(e) {
+        console.log("error loading module");
+        console.log(e);
       });
     </script>
   </body>
