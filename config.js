@@ -34,6 +34,7 @@ System.config({
       "github:tildeio/rsvp.js@3.0.7/rsvp/promise",
       "github:tildeio/rsvp.js@3.0.7/rsvp.js",
       "github:tildeio/rsvp.js@3.0.7",
+      "github:toranb/toranb-react-amd-rsvp-promise-mixin@0.1.2",
       "github:toranb/toranb-react-jspm-view@0.2.2/final"
     ]
   }
